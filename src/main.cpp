@@ -75,5 +75,5 @@ void loop() {
     client.publish("weather/wetterstation1/windDirection", String(windDir).c_str());
     client.publish("weather/wetterstation1/windSpeed", String(windspeed, 2).c_str());
     client.publish("weather/wetterstation1/windSpeedKmh", String(windspeedKmh, 2).c_str());
-    delay(100);
+    delay(1000);
 }
